@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+   position: relative;
+  left: 115px;
+}
+input[type=password], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+   position: relative;
+  left: 115px;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: red;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  left: 115px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 5px;
+  heigth: 500px;
+  width: 450px;
+  position: relative;
+  left: 200px;
+ ;
+
+
+}
+</style>
+<body>
+
+
+
+<div>
+  <form action="AuthentificationServlet" method="post">
+  
+<h2><b><center >Authentification</center></b></h2>
+
+    <input type="text" name="UserName" placeholder="Login">
+
+
+    <input type="password" name="password" placeholder="Password">
+
+
+  
+    <input type="submit" value="SIGN IN">
+  </form>
+</div>
+
+</body>
+</html>
